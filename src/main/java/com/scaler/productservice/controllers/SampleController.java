@@ -1,4 +1,4 @@
-package com.scaler.productservice.controller;
+package com.scaler.productservice.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -19,7 +19,7 @@ public class SampleController {
         }
 
         @GetMapping("/good-bye")
-        public String byeWorld(String timeofday) {
+        public String byeWorld() {
             return "Good bye!";
         }
 }
