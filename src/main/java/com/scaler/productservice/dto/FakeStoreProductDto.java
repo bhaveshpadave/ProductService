@@ -1,4 +1,4 @@
-package com.scaler.productservice.Dto;
+package com.scaler.productservice.dto;
 
 import lombok.Getter;
 import lombok.Setter;
